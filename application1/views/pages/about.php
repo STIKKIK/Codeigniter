@@ -1,0 +1,1 @@
+<h1>about <?php echo $num ?></h1>
