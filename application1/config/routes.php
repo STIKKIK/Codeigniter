@@ -63,7 +63,7 @@ $route['news/(:any)'] = 'news/view/$1';
 $route['news'] = 'news';
 // disable for RestAPI
 //$route['(:any)'] = 'pages/view/$1';
-$route['default_controller'] = 'pages/view';
+$route['default_controller'] = 'bootstrap/index';
 $route['products/([a-zA-Z]+)/edit/(\d+)'] = function ($product_type, $id)
 {
         return 'catalog/product_edit/' . strtolower($product_type) . '/' . $id;
